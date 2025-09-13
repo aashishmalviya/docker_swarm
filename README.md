@@ -8,7 +8,7 @@ cd docker_swarm
 
 ### **Step 2: Build the Docker Image**
 
-In a terminal, run:
+In the terminal, run:
 
 ```bash
 docker build -t docker_swarm:latest .
@@ -47,6 +47,18 @@ docker service create --name flask-demo --publish 5000:5000 --replicas 3 docker_
 - **List services**: `docker service ls`
 - **List tasks/containers**: `docker service ps flask-demo`
 - **Remove service**: `docker service rm flask-demo`
+
+### Tech stack used:
+
+| Component       | Role in Project                          | Key Technology/Tool          |
+|-----------------|----------------------------------------|-----------------------------|
+| Python          | Language for the web app                | Python 3.11                 |
+| Flask           | Framework for serving the web app      | Flask                      |
+| Docker          | Containerize the app                    | Docker Engine              |
+| Dockerfile      | Defines container build steps           | Dockerfile syntax          |
+| Docker Swarm    | Orchestrates and manages containers     | Docker Swarm mode          |
+| Docker Service  | Runs and scales app replicas             | `docker service` commands  |
+
 
 <br>
 <p align="center">
