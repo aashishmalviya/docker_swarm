@@ -62,5 +62,5 @@ docker service create --name flask-demo --publish 5000:5000 --replicas 3 docker_
 
 <br>
 <p align="center">
-  Liked it? ❤️ <a href="https://linkedin.com/in/aashish-malviya">Let's connect 🤗</a>
+  Like it? ❤️ <a href="https://linkedin.com/in/aashish-malviya">Let's connect 🤗</a>
 </p>
